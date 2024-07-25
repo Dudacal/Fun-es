@@ -10,16 +10,13 @@
     <h2>Funções</h2>
     <p> Criar uma função multiplica dois números e retorna o resultado para uma variável.Uma função pode ser armazenada em uma variavel</p>
     <p>Utilizando <b>Parâmetros Padrão</b></p>
-    <p>Funções podem ser usadas como valores ou expressões</p>
+    <p><b>Versão 2:</b>Funções podem ser usadas como valores ou expressões</p>
     <p id="resultado" style="font-weight: bold;"></p>
 
     <script>
-      function multiplica(a,b)
+      function multiplica(a=1,b=1)
         {
-           if(b===undefined)
-           {
-            b = 1;
-           }
+        
             return a*b;
         }
         
